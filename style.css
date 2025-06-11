@@ -19,6 +19,12 @@
     --marron-claro: #FAF1E6;
 }
 
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body{
 
 }
@@ -29,6 +35,7 @@ header{
     background-color: var(--azul);
     padding: 1rem;
     justify-content: center;
+    font-family: "Audiowide", sans-serif;
 }
 
 .portfolio h2{
