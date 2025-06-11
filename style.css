@@ -35,7 +35,6 @@ header{
     background-color: var(--azul);
     padding: 1rem;
     justify-content: center;
-    font-family: "Audiowide", sans-serif;
 }
 
 .portfolio h2{
@@ -55,4 +54,8 @@ main {
     align-items: center;
     gap: 50px;
     flex-wrap: wrap;
+}
+
+.materias {
+    font-family: "Audiowide", sans-serif;
 }
