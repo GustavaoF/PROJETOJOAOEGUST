@@ -9,14 +9,14 @@
 /*ESQUEMA DE CORES*/
 
 :root {
-    --vermelho: #ff0000;
-    --azul: #1e00ff;
-    --amarelo: #ffd505;
-    --roxo-claro: #B2A5FF;
-    --verde: #99BC85;
-    --azul-claro: #E4EFE7;
+    --preto: rgb(0, 0, 0);
     --branco: #FFFFFF;
-    --marron-claro: #FAF1E6;
+    --azul: #523fe4;
+    --amarelo: #d2b420;
+    --roxo-claro: #c76ffe;
+    --verde: #79d644;
+    --azul-claro: #23b2c5;
+    --marron-claro: #5b3311;
 }
 
 .audiowide-regular {
@@ -32,7 +32,7 @@ body{
 header{
     display: flex; 
     width: 100%;
-    background-color: var(--azul);
+    background-color: var(--branco);
     padding: 1rem;
     justify-content: center;
     font-family: "Audiowide", sans-serif;
@@ -40,5 +40,5 @@ header{
 
 .portfolio h2{
     font-size: 2.4rem;
-    color: var(--roxo-claro);
+    color: var(--azul);
 }
