@@ -32,7 +32,7 @@ body{
 header{
     display: flex; 
     width: 100%;
-    background-color: var(--branco);
+    background-color: var(--azul);
     padding: 1rem;
     justify-content: center;
     font-family: "Audiowide", sans-serif;
@@ -40,5 +40,19 @@ header{
 
 .portfolio h2{
     font-size: 2.4rem;
-    color: var(--azul);
+    color: var(--branco);
+}
+
+main {
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.caixas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
