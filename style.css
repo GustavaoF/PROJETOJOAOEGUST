@@ -17,7 +17,7 @@
     --verde: #79d644;
     --azul-claro: #23b2c5;
     --marron-claro: #5b3311;
-    --cinza: #798fa3;
+    --cinza: #e4f2ff;
 }
 
 .audiowide-regular {
@@ -62,9 +62,9 @@ main {
     display: flex;
     justify-content: center;
     background-color: var(--cinza);
-    border-radius: 10px;
-    padding: 30px;
-    width: 80%;
+    border-radius: 25px;
+    padding: 18px;
+    width: 50%;
     min-width: 280px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
