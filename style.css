@@ -17,6 +17,7 @@
     --verde: #79d644;
     --azul-claro: #23b2c5;
     --marron-claro: #5b3311;
+    --cinza: #798fa3;
 }
 
 .audiowide-regular {
@@ -60,7 +61,7 @@ main {
     font-family: "Audiowide", sans-serif;
     display: flex;
     justify-content: center;
-    background-color: var(--roxo-claro);
+    background-color: var(--cinza);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
