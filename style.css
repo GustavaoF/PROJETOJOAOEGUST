@@ -30,3 +30,8 @@ header{
     padding: 1rem;
     justify-content: center;
 }
+
+.portfolio h1{
+    font-size: 4rem;
+    color: var(--roxo-claro);
+}
