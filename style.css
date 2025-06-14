@@ -36,6 +36,7 @@ body{
 }
 
 header{
+    font-family: "Audiowide", sans-serif;
     display: flex;
     width: 100%;
     background: linear-gradient(180deg, #2d555a, #42848d, #2d555a);
@@ -63,7 +64,7 @@ main {
 }
 
 .materias {
-    font-family: "Audiowide", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
     background-color: var(--cinza);
@@ -98,6 +99,7 @@ footer{
 }
 
 .creditos h1 {
+    font-family: "Roboto Condensed", sans-serif;
     justify-content: center;
     display: flex;
     font-size: 1rem;
