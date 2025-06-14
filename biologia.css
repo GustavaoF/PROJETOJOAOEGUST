@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: rgb(0, 0, 0);
+    --branco: #FFFFFF;
+    --azul: #523fe4;
+    --amarelo: #d2b420;
+    --roxo-claro: #c76ffe;
+    --verde: #79d644;
+    --azul-claro: #23b2c5;
+    --marron-claro: #5b3311;
+    --cinza: #e4f2ff;
+    --verde-claro: #b9ffb9;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-<uniquifier> {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
