@@ -44,6 +44,7 @@ header {
     width: 100%;
     background: linear-gradient(180deg, #2d555a, #42848d, #2d555a);
     padding: 1rem;
+    position: relative;
     justify-content: center;
 }
 
