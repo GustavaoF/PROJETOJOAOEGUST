@@ -65,10 +65,6 @@ header {
     color: var(--roxo-claro);
 }
 
-.botao-disciplinas a {
-    color: var(--preto);
-}
-
 #menu-toggle {
     display: none;
 }
@@ -96,6 +92,10 @@ header {
 
 .lista-vertical a:hover {
     background-color: var(--amarelo-claro);
+}
+
+.botao-disciplinas:hover {
+    color: var(--preto);
 }
 
 #menu-toggle:checked~.lista-vertical {
