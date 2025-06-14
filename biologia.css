@@ -82,7 +82,7 @@ header {
 
 .lista-vertical a {
     font-family: "Audiowide", sans-serif;
-    color: var(--branco);
+    color: var(--preto);
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 1.5rem;
