@@ -69,6 +69,7 @@ header {
 }
 
 .lista-vertical {
+    width: 80%;
     display: none;
     position: absolute;
     background-color: var(--marron-claro);
