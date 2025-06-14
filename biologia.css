@@ -75,7 +75,7 @@ header {
     box-shadow: 0 2px 5px var(--marinho);
     min-width: 190px;
     z-index: 1;
-    left: 1rem;
+    left: 0.9rem;
     top: 100%;
 }
 
