@@ -77,7 +77,6 @@ main {
 
 .materias:hover {
     transform: translateY(-4px) scale(1.04);
-    color: #c76ffe;
     box-shadow: 0 0 0 13.5px rgba(114, 223, 107, 0.3);
 }
 
@@ -86,3 +85,7 @@ main {
     font-size: 4rem;
     text-decoration: none;
 }
+
+.materias a:where(:not([role='button'])):hover {
+    color: (--color-progressive--hover, #3056a9);
+    text-decoration: underline;
