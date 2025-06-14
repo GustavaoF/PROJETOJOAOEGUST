@@ -1,2 +1,2 @@
 # PROJETOCOMPLETOMATÉRIAS
-Teérmino do Projeto passado nas aulas ;)
+Término do Projeto passado nas aulas ;)
