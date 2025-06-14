@@ -29,3 +29,98 @@
   font-weight: <weight>;
   font-style: normal;
 }
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--azul-claro);
+    color: var(--amarelo-claro);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    background-color: var(--marinho);
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+
+.menu-disciplina {
+    width: 20%;
+    display: inline-block;
+}
+
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    background-color: var(--preto);
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: var(--roxo-claro);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: var(--roxo-claro);
+    box-shadow: 0 2px 5px var(--marinho);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top: 100%;
+}
+
+.lista-vertical a {
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+
+.lista-vertical a:hover {
+    background-color: var(--amarelo-claro);
+}
+
+#menu-toggle:checked~.lista-vertical {
+    display: block;
+}
+
+#menu-toggle:checked+.botao-disciplinas {
+    background-color: var(--amarelo-claro);
+}
+
+.links-principais {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.lista-horizontal {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    gap: 17rem;
+}
+
+
+.lista-horizontal a {
+    text-decoration: none;
+    color: var(--amarelo-claro);
+}
+
+.lista-horizontal a:hover {
+    color: var(--preto);
+}
