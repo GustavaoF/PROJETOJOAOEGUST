@@ -30,7 +30,7 @@
 body{
     height: 98vh;
     box-sizing: border-box;
-    background-color: gray;
+    background: linear-gradient(180deg, #2d5a3b, #428d55, #2d5a3b);
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -38,7 +38,7 @@ body{
 header{
     display: flex;
     width: 100%;
-    background: linear-gradient(180deg, #2d555a, #42848d, #3f9fac, #2d555a);
+    background: linear-gradient(180deg, #2d555a, #42848d, #2d555a);
     padding: 1rem;
     justify-content: center;
 }
