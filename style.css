@@ -69,15 +69,15 @@ main {
     background-color: var(--cinza);
     border-radius: 25px;
     padding: 18px;
-    width: 50%;
+    width: 58%;
     min-width: 280px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .materias:hover {
-    transform: translateY(-1px) scale(1);
-    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px) scale(1.04);
+    box-shadow: 0 0 0 15px rgba(114, 223, 107, 0.2);
 }
 
 .materias a {
