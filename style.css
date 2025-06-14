@@ -83,7 +83,7 @@ main {
 }
 
 .materias a {
-    color: var(--verde);
+    color: var(--azul-claro);
     font-size: 4rem;
     text-decoration: none;
 }
