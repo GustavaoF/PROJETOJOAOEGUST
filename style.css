@@ -28,10 +28,10 @@
 }
 
 body{
-    height: 102vh;
+    height: 98vh;
     box-sizing: border-box;
     background-color: gray;
-    font-size: 26px;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
