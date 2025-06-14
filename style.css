@@ -78,12 +78,15 @@ main {
 .materias:hover {
     transform: translateY(-4px) scale(1.04);
     box-shadow: 0 0 0 13.5px rgba(114, 223, 107, 0.3);
-    color: var(--branco);
-    text-decoration: underline;
 }
 
 .materias a {
     color: var(--verde);
     font-size: 4rem;
     text-decoration: none;
+}
+
+.materias a:hover {
+    color: var(--branco);
+    text-decoration: underline;
 }
