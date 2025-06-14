@@ -87,6 +87,5 @@ main {
 }
 
 .materias a:hover {
-    color: var(--branco);
-    text-decoration: underline;
+    color: var(--amarelo);
 }
