@@ -39,6 +39,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* CABEÇALHO */
+
 header {
     font-family: "Roboto Condensed", sans-serif;
     display: flex;
@@ -127,3 +129,5 @@ header {
 .lista-horizontal a:hover {
     color: var(--branco);
 }
+
+/* CORPO */
