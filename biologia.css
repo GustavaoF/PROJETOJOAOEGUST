@@ -81,11 +81,11 @@ header {
 }
 
 .lista-vertical a {
-     font-family: "Audiowide", sans-serif;
+    font-family: "Audiowide", sans-serif;
     color: var(--branco);
     padding: 0.75rem 1rem;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     display: block;
     text-align: center;
 }
