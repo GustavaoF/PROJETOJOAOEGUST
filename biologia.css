@@ -90,7 +90,7 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--preto);
+    background-color: var(--amarelo-claro);
 }
 
 #menu-toggle:checked~.lista-vertical {
@@ -99,7 +99,7 @@ header {
 
 #menu-toggle:checked+.botao-disciplinas {
     color: var(--branco);
-    background-color: var(--amarelo);
+    background-color: var(--preto);
 }
 
 .links-principais {
