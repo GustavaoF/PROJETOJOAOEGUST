@@ -31,6 +31,7 @@
 }
 
 body {
+    height: 100vh;
     box-sizing: border-box;
     background: linear-gradient(180deg, #2d5a3b, #428d55, #2d5a3b);
     color: var(--amarelo-claro);
