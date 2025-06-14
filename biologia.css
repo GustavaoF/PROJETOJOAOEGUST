@@ -99,6 +99,7 @@ header {
 }
 
 #menu-toggle:checked+.botao-disciplinas {
+    color: var(--branco);
     background-color: var(--amarelo);
 }
 
