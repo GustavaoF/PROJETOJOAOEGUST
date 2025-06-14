@@ -65,6 +65,10 @@ header {
     color: var(--roxo-claro);
 }
 
+.botao-disciplinas a {
+    color: var(--preto);
+}
+
 #menu-toggle {
     display: none;
 }
