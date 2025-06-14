@@ -90,7 +90,8 @@ header {
 }
 
 .lista-vertical a:hover {
-    background-color: var(--amarelo-claro);
+    background-color: var(--branco);
+    color: var(--pre);
 }
 
 #menu-toggle:checked~.lista-vertical {
