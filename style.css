@@ -29,8 +29,8 @@
 
 body{
     box-sizing: border-box;
-    background-color: transparent;
-    background-image: linear-gradient( to right, rgb(68, 245, 97), rgb(42, 80, 42), yellow, blue );
+    background: #0c0573;
+    background: linear-gradient(180deg,rgba(12, 5, 115, 1) 0%, rgba(60, 60, 143, 1) 35%, rgba(104, 105, 156, 1) 100%);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
