@@ -42,6 +42,7 @@ body {
 header {
     font-family: "Roboto Condensed", sans-serif;
     display: flex;
+    width: 100%;
     background: linear-gradient(180deg, #2d555a, #42848d, #2d555a);
     padding: 1rem;
     position: relative;
@@ -101,7 +102,6 @@ header {
 }
 
 .links-principais {
-    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
