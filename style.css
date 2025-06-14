@@ -97,6 +97,8 @@ footer{
 }
 
 .creditos h1 {
+    justify-content: center;
+    display: flex;
     font-size: 1rem;
     color: var(--branco);
 }
