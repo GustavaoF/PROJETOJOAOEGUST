@@ -77,7 +77,7 @@ main {
 
 .materias:hover {
     transform: translateY(-4px) scale(1.04);
-    box-shadow: 0 0 0 15px rgba(114, 223, 107, 0.2);
+    box-shadow: 0 0 0 15px rgba(114, 223, 107, 0.8);
 }
 
 .materias a {
