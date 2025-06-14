@@ -74,3 +74,14 @@ main {
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.materias:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.materias a {
+     color: var(--verde);
+    font-size: 5.5rem;
+    text-decoration: none;
+}
