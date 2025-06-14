@@ -28,7 +28,7 @@
 }
 
 body{
-    height: 120vh;
+    height: 102vh;
     box-sizing: border-box;
     background-color: gray;
     font-size: 26px;
@@ -82,6 +82,6 @@ main {
 
 .materias a {
      color: var(--verde);
-    font-size: 5.5rem;
+    font-size: 4rem;
     text-decoration: none;
 }
