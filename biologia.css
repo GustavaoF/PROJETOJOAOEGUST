@@ -184,7 +184,7 @@ h1 {
     font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
-    color: var(--preto);
+    color: var(--verde);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
