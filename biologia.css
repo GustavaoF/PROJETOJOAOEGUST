@@ -33,7 +33,7 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #8cad57, #708d42, #4a5a2d, #708d42, #8cad57);
+    background: linear-gradient(180deg, #4a5a2d, #708d42, #8cad57, #708d42, #4a5a2d);
     color: var(--amarelo-claro);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
