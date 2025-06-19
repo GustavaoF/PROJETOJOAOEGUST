@@ -138,10 +138,11 @@ main {
 }
 
 h1 {
+    font-family: "Audiowide", sans-serif;
     text-align: center;
     color: var(--verde);
     margin-bottom: 60px;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .biologia-container {
