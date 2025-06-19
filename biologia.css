@@ -143,8 +143,8 @@ main {
 }
 
 .home a {
-    font-size: 2rem;
-    color: var(--verde);
+    font-size: 1rem;
+    color: var(--branco);
 }
 
 
@@ -209,16 +209,6 @@ h1 {
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
-}
-
-.home {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.home a {
-    font-size: 2rem;
     color: var(--verde);
 }
 
