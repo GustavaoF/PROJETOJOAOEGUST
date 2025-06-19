@@ -177,7 +177,7 @@ h1 {
 
 .conteudo:hover {
     transform: translateY(-6px) scale(1.04);
-    box-shadow: 0 0 0 10px rgba(92, 104, 87, 0.4);
+    box-shadow: 0 0 0 10px rgba(134, 151, 127, 0.6);
 }
 
 .conteudo h2 {
