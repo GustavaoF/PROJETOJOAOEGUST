@@ -166,7 +166,7 @@ h1 {
 }
 
 .conteudo {
-    background-color: var(--branco);
+    background-color: var(--preto);
     border-radius: 10px;
     padding: 30px;
     width: 80%;
@@ -181,21 +181,23 @@ h1 {
 }
 
 .conteudo h2 {
+    font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
-    color: var(--verde);
+    color: var(--branco);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
 
 .conteudo p {
     line-height: 1.6;
-    color: var(--preto);
+    color: var(--branco);
     margin-bottom: 20px;
     font-size: 1.8rem;
 }
 
 .conteudo ul {
+    color: var(--branco);
     list-style-type: none;
     font-size: 1.8rem;
 }
