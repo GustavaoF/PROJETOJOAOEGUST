@@ -66,7 +66,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 40px;
+    gap: 58px;
     flex-wrap: wrap;
 }
 
@@ -102,7 +102,6 @@ footer{
     width: 100%;
     background: linear-gradient(180deg, #262769, #3b3da8, #262769);
     padding: 1rem;
-    margin: 5rem auto;
     position: absolute;
 }
 
