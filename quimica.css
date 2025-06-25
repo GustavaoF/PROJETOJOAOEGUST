@@ -207,23 +207,6 @@ h1 {
     border-bottom: 1px solid var(--azul-claro);
     transition: transform 0.5s ease;
     color: var(--preto);
-}
-
-.conteudo ul li:hover {
-    transform: translateX(10px);
-    color: var(--verde);
-}
-
-.conteudo ul li .block {
-    display: none;
-}
-
-.conteudo ul li:hover .block {
-    display: block;
-    text-align: justify;
-    color: var(--marinho);
-    margin-bottom: 5px;
-}
 
 .opacidade {
     display: block;
