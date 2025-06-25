@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: rgb(0, 0, 0);
+    --branco: #FFFFFF;
+    --azul: #523fe4;
+    --amarelo: #d2b420;
+    --roxo-claro: #c76ffe;
+    --verde: #99BC85;
+    --azul-claro: #23b2c5;
+    --marron-claro: #5b3311;
+    --cinza: #e4f2ff;
+    --verde-claro: #b9ffb9;
+}
+
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-condensed-uniquifier {
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(180deg, #6a8042, #566835, #3f4d27, #566835, #6a8042);
+    color: var(--amarelo-claro);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CABEÇALHO */
+
+header {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    width: 100%;
+    background: linear-gradient(180deg, #2d555a, #42848d, #2d555a);
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+
+.menu-disciplina {
+    width: 20%;
+    display: inline-block;
+}
+
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: var(--preto);
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: var(--marron-claro);
+    box-shadow: 0 2px 5px var(--marinho);
+    min-width: 190px;
+    z-index: 1;
+    left: 0.9rem;
+    top: 100%;
+}
+
+.lista-vertical a {
+    font-family: "Audiowide", sans-serif;
+    color: var(--branco);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: block;
+    text-align: center;
+}
+
+.lista-vertical a:hover {
+    background-color: var(--branco);
+    color: var(--pre);
+}
+
+#menu-toggle:checked~.lista-vertical {
+    display: block;
+}
+
+#menu-toggle:checked+.botao-disciplinas {
+    color: var(--branco);
+    background-color: var(--preto);
+}
+
+.links-principais {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.lista-horizontal {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    gap: 17rem;
+}
+
+
+.lista-horizontal a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+.lista-horizontal a:hover {
+    color: var(--branco);
+}
+
+/* CORPO */
+
+main {
+    margin: 25px auto;
+    padding: 20px;
+}
+
+.home {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home a {
+    font-size: 1.5rem;
+    color: var(--branco);
+}
+
+
+h1 {
+    font-family: "Audiowide", sans-serif;
+    text-align: center;
+    color: var(--verde);
+    margin-bottom: 60px;
+    font-size: 3.8rem;
+}
+
+.biologia-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.conteudo {
+    background-color: var(--branco);
+    border-radius: 10px;
+    padding: 30px;
+    width: 80%;
+    min-width: 280px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.conteudo:hover {
+    transform: translateY(-6px) scale(1.04);
+    box-shadow: 0 0 0 10px rgba(134, 151, 127, 0.6);
+}
+
+.conteudo h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: var(--verde);
+    margin-bottom: 15px;
+    font-size: 2.8rem;
+}
+
+.conteudo p {
+    line-height: 1.6;
+    color: var(--preto);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.conteudo ul {
+    color: var(--preto);
+    list-style-type: none;
+    font-size: 1.8rem;
+}
+
+.conteudo ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid var(--azul-claro);
+    transition: transform 0.5s ease;
+    color: var(--preto);
+}
+
+.conteudo ul li:hover {
+    transform: translateX(10px);
+    color: var(--verde);
+}
+
+.conteudo ul li .block {
+    display: none;
+}
+
+.conteudo ul li:hover .block {
+    display: block;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
+
+.opacidade {
+    display: block;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 1.5s ease, max-height 1.5s ease;
+    color: var(--marinho);
+    text-align: justify;
+    margin: 0;
+    padding: 0;
+}
+
+.conteudo ul li:hover .opacidade {
+    opacity: 1;
+    max-height: 320px;
+    text-align: justify;
+    color: var(--marinho);
+    margin-bottom: 5px;
+}
