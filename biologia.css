@@ -192,8 +192,9 @@ h1 {
 .conteudo p {
     line-height: 1.6;
     color: var(--preto);
-    margin-bottom: 20px;
+    margin-bottom: -5px;
     font-size: 1.8rem;
+    margin: 0rem
 }
 
 .conteudo ul {
