@@ -190,7 +190,6 @@ h1 {
 }
 
 .conteudo p {
-    font-family: "Roboto Condensed", sans-serif;
     line-height: 1.6;
     color: var(--preto);
     margin-bottom: 20px;
