@@ -34,7 +34,7 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #6a8042, #566835, #3f4d27, #566835, #6a8042);
+    background: linear-gradient(180deg, #5d82e7, #2e50af, #122a6d, #2e50af, #5d82e7);
     color: var(--amarelo-claro);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
