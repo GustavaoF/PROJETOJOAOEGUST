@@ -205,7 +205,7 @@ h1 {
 
 .conteudo ul li:hover {
     transform: translateX(10px);
-    color: var(--verde);
+    color: var(--azul);
 }
 
 .conteudo ul li .block {
