@@ -15,6 +15,7 @@
     --marron-claro: #5b3311;
     --cinza: #e4f2ff;
     --verde-claro: #b9ffb9;
+    --roxo: #4f17d3;
 }
 
 .audiowide-regular {
@@ -151,7 +152,7 @@ main {
 h1 {
     font-family: "Audiowide", sans-serif;
     text-align: center;
-    color: var(--azul-claro);
+    color: var(--roxo);
     margin-bottom: 60px;
     font-size: 3.8rem;
 }
