@@ -75,7 +75,7 @@ header {
     position: absolute;
     background-color: var(--marron-claro);
     box-shadow: 0 2px 5px var(--marinho);
-    min-width: 190px;
+    min-width: 185px;
     z-index: 1;
     left: 0.9rem;
     top: 100%;
