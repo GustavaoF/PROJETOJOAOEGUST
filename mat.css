@@ -16,6 +16,7 @@
     --cinza: #e4f2ff;
     --verde-claro: #b9ffb9;
     --roxo: #4f17d3;
+    --vermelho: #e9443f;
 }
 
 .audiowide-regular {
@@ -34,8 +35,8 @@
 body {
     height: 100vh;
     box-sizing: border-box;
-    background: linear-gradient(180deg, #8caafc, #5678d6, #2849a5, #5678d6, #8caafc);
-    color: var(--amarelo-claro);
+    background: linear-gradient(180deg, #fc8c8c, #e76a6a, #dd4949, #e76a6a, #fc8c8c);
+    color: var(--vermelho);
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
 }
