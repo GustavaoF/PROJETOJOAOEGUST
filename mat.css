@@ -157,7 +157,7 @@ h1 {
     font-size: 3.8rem;
 }
 
-.quimica-container {
+.mat-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
