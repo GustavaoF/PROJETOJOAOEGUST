@@ -15,8 +15,8 @@
     --marron-claro: #5b3311;
     --cinza: #e4f2ff;
     --verde-claro: #b9ffb9;
-    --roxo: #4f17d3;
-    --vermelho: #ff6a5f;
+    --laranja: #f17420;
+    --vermelho: #7a2c27;
 }
 
 .audiowide-regular {
@@ -186,7 +186,7 @@ h1 {
     font-family: "Roboto Condensed", sans-serif;
     display: flex;
     justify-content: center;
-    color: var(--roxo);
+    color: var(--laranja);
     margin-bottom: 15px;
     font-size: 2.8rem;
 }
