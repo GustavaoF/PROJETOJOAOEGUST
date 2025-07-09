@@ -160,11 +160,10 @@ h1 {
 
 .mat-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    align-items: center;
-    gap: 90px;
-    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 45px;
 }
 
 .conteudo {
